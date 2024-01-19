@@ -3,11 +3,16 @@
         <div
         data-glide-el="controls"
         class="self-center flex xl:hidden">
-        <button class="text-[40px] pr-2 text-white font-semibold hover:scale-150 transition-transform z-30" data-glide-dir="<">&lt;</button>
         </div>
         <div class="glide__track" data-glide-el="track">
             <ul class="glide__slides">
-                <li class="glide__slide rounded-xl overflow-hidden"  >
+               <!-- <li class="glide__slide rounded-xl overflow-hidden bg-[url(fiesta.jpg)] bg-cover !h-[300px] !w-[400px]"></li>
+               <li class="glide__slide rounded-xl overflow-hidden bg-[url(fiesta2.jpg)] bg-cover !h-[300px] !w-[400px]"> </li>      
+               <li class="glide__slide rounded-xl overflow-hidden bg-[url(fiesta3.jpg)] bg-cover !h-[300px] !w-[400px]"> </li>      
+               <li class="glide__slide rounded-xl overflow-hidden bg-[url(fiesta4.jpg)] bg-cover !h-[300px] !w-[400px]"> </li>      
+               <li class="glide__slide rounded-xl overflow-hidden bg-[url(fiesta6.jpg)] bg-cover !h-[300px] !w-[400px]"> </li>       -->
+
+                <!-- <li class="glide__slide rounded-xl overflow-hidden"  >
                     <NuxtPicture src="/fiesta2.jpg"></NuxtPicture>
                 </li>            
                 <li class="glide__slide  rounded-xl overflow-hidden"  >
@@ -18,7 +23,22 @@
                 </li>  
                 <li class="glide__slide rounded-xl overflow-hidden"  >
                     <NuxtPicture src="/fiesta6.jpg"></NuxtPicture>
+                </li> -->
+
+                
+                <li class=" rounded-xl overflow-hidden"  >
+                    <NuxtPicture src="/fiesta2.jpg"></NuxtPicture>
+                </li>            
+                <li class=" rounded-xl overflow-hidden"  >
+                    <NuxtPicture src="/fiesta3.jpg"></NuxtPicture>
                 </li>
+                <li class="  rounded-xl overflow-hidden"  >
+                    <NuxtPicture src="/fiesta4.jpg"></NuxtPicture>
+                </li>  
+                <li class="rounded-xl overflow-hidden"  >
+                    <NuxtPicture src="/fiesta6.jpg"></NuxtPicture>
+                </li>
+                
 
             </ul>
         </div>
