@@ -12,7 +12,7 @@
                <li class="glide__slide rounded-xl overflow-hidden bg-[url(fiesta4.jpg)] bg-cover !h-[300px] !w-[400px]"> </li>      
                <li class="glide__slide rounded-xl overflow-hidden bg-[url(fiesta6.jpg)] bg-cover !h-[300px] !w-[400px]"> </li>       -->
 
-                <!-- <li class="glide__slide rounded-xl overflow-hidden"  >
+                <li class="glide__slide rounded-xl overflow-hidden"  >
                     <NuxtPicture src="/fiesta2.jpg"></NuxtPicture>
                 </li>            
                 <li class="glide__slide  rounded-xl overflow-hidden"  >
@@ -22,20 +22,6 @@
                     <NuxtPicture src="/fiesta4.jpg"></NuxtPicture>
                 </li>  
                 <li class="glide__slide rounded-xl overflow-hidden"  >
-                    <NuxtPicture src="/fiesta6.jpg"></NuxtPicture>
-                </li> -->
-
-                
-                <li class=" rounded-xl overflow-hidden"  >
-                    <NuxtPicture src="/fiesta2.jpg"></NuxtPicture>
-                </li>            
-                <li class=" rounded-xl overflow-hidden"  >
-                    <NuxtPicture src="/fiesta3.jpg"></NuxtPicture>
-                </li>
-                <li class="  rounded-xl overflow-hidden"  >
-                    <NuxtPicture src="/fiesta4.jpg"></NuxtPicture>
-                </li>  
-                <li class="rounded-xl overflow-hidden"  >
                     <NuxtPicture src="/fiesta6.jpg"></NuxtPicture>
                 </li>
                 
