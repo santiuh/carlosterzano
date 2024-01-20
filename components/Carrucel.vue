@@ -13,16 +13,16 @@
                <li class="glide__slide rounded-xl overflow-hidden bg-[url(fiesta6.jpg)] bg-cover !h-[300px] !w-[400px]"> </li>       -->
 
                 <li class="glide__slide rounded-xl overflow-hidden"  >
-                    <NuxtPicture src="/fiesta2.jpg" width="439" ></NuxtPicture>
+                    <NuxtPicture src="/fiesta2.jpg"  ></NuxtPicture>
                 </li>            
                 <li class="glide__slide  rounded-xl overflow-hidden"  >
-                    <NuxtPicture src="/fiesta3.jpg" width="439" ></NuxtPicture>
+                    <NuxtPicture src="/fiesta3.jpg"  ></NuxtPicture>
                 </li>
                 <li class="glide__slide  rounded-xl overflow-hidden"  >
-                    <NuxtPicture src="/fiesta4.jpg" width="439" ></NuxtPicture>
+                    <NuxtPicture src="/fiesta4.jpg"  ></NuxtPicture>
                 </li>  
                 <li class="glide__slide rounded-xl overflow-hidden"  >
-                    <NuxtPicture src="/fiesta6.jpg" width="439" ></NuxtPicture>
+                    <NuxtPicture src="/fiesta6.jpg"  ></NuxtPicture>
                 </li>
                 
 
@@ -48,8 +48,8 @@
         autoplay: 1,
         animationDuration: 7000,
         animationTimingFunc: 'linear',
-        perView: 3,
-        gap: 20,
+        perView: 2,
+        gap: 30,
     }).mount();
   });
   </script>
