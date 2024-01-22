@@ -2,8 +2,10 @@
     <nav class="hidden xl:flex gap-4 text-white justify-between flex-col-reverse xl:flex-row fixed xl:static w-full transition-all duration-500 z-20">
       <div>L a  G u i l l e r m i n a</div>
       <div class="flex xl:gap-4 font-semibold  justify-between xl:justify-normal px-4">
-        <NuxtLink class="hover:text-primary hover:cursor-pointer transition-all duration-300" to="#Header"> Inicio</NuxtLink>
-        <NuxtLink class="hover:text-primary hover:cursor-pointer transition-all duration-300" :to="'#' + dato" v-for="dato in data">{{ dato }}</NuxtLink>
+        <NuxtLink class="hover:text-primary hover:cursor-pointer transition-all duration-300" to="/"> Inicio</NuxtLink>
+        <NuxtLink class="hover:text-primary hover:cursor-pointer transition-all duration-300" :to="'/' + dato" v-for="dato in data">{{ dato }}</NuxtLink>
+        <NuxtLink class="hover:text-primary hover:cursor-pointer transition-all duration-300" to="#Contacto" v-for="dato in data">Contacto</NuxtLink>
+
         <a target="_blank" href="https://www.instagram.com/somosgrupods/">  <NuxtPicture class="hover:brightness-75 hover:cursor-pointer tranisition-all duration-300" src="instagram.svg" width="24px" height="24px"></NuxtPicture></a>
         <a target="_blank" href="https://www.facebook.com/people/Somos-Grupo-DS/61554901138018/">  <NuxtPicture class="hover:brightness-75 hover:cursor-pointer transition-all duration-300" src="facebook.svg" width="24px" height="24px"></NuxtPicture></a>
 
@@ -25,7 +27,7 @@
   <script setup>
   import { ref, onMounted, onBeforeUnmount, computed } from 'vue';
   
-  const data = ['Nosotros', 'Servicios', 'Contacto'];
+  const data = ['Nosotros', 'Servicios'];
   const menu = ref(false)
   </script>
   
