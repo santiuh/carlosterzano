@@ -4,16 +4,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary' : '#d3a094',
-        'secondary' : '#f6ecec',
-        'text' : '#c3996b',
-        'footer': '#99724c',
+        'primary' : '#D3A094',
+        'secondary' : '#E0AC9C',
+        'text' : '#574C4C',
+        'title' : '#c3996b',
         'footer2' : '#574c4c'
       },
       fontFamily: {
-        'monse' :   ["Montserrat"],
-        "lexend" : ["Lexend Deca"],
-        "space" : ["Space Grotesk"],
+        'manro' :   ["Manrope"]
     },
     },
   },

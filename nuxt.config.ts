@@ -14,7 +14,7 @@ export default defineNuxtConfig({
           ital: [100],
         },
         
-        "Lexend+Deca": {
+        "Manrope": {
           wght: [400, 500, 600, 700, 800],
         },
         "Space+Grotesk": {

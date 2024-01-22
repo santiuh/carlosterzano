@@ -1,5 +1,5 @@
 <template>
-  <NuxtPage></NuxtPage>
+  <NuxtPage class="font-manro text-text"></NuxtPage>
 </template>
 <script setup>
 useSeoMeta({
@@ -13,5 +13,9 @@ useSeoMeta({
 <style>
 body, html{
   scroll-behavior: smooth !important;
+}
+img{
+  max-width: none;
+  height: unset;
 }
 </style>

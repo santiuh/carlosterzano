@@ -1,20 +1,26 @@
 <template>
-    <header class=" h-screen xl:h-auto xl:bg-right-top bg-[left-230px] bg-cover xl:px-[195px] xl:pt-9 justify-center flex" :style="backgroundStyles">
-        <div class="xl:max-w-[1440px] flex flex-col w-full">
+    <header class=" h-[680px] xl:pt-9 justify-center flex bg-cover relative" :style="backgroundStyles">
+        <div class="xl:max-w-[1440px] xl:px-[192px] flex flex-col w-full z-10">
             <HeaderNavbar></HeaderNavbar>
-            <div class="flex flex-col h-full justify-center gap-4 xl:gap-9 xl:pt-[160px] xl:pb-[173px] px-4 xl:px-0 text-white text-4xl">
-Creamos recuerdos para to da la vida
+            <div class="h-full flex items-center justify-center">
+                <NuxtPicture :src="props.frase"></NuxtPicture>
+
             </div>
         </div>
+        <div class="h-[680px] w-full absolute top-0" style="background: rgba(79, 59, 48, 0.70);"></div>
+        <NuxtPicture class="absolute bottom-[-82px] z-10 " src="/sello.svg"></NuxtPicture>
+
     </header>
 </template>
 <script setup>
 
+const props = defineProps(['fondo','frase'])
+
 const img = useImage()
 const backgroundStyles = computed(() => {
-  const imgUrl = img('/beso.jpg', { format:'avif' })
+  const imgUrl = img(props.fondo, { format:'avif' })
   return { backgroundImage: `url('${imgUrl}')`,
-  backgroundPositionX: '30%', 
+  backgroundPositionY: '30%',   
 }
 })
     
