@@ -50,7 +50,7 @@
   @import "@glidejs/glide/dist/css/glide.theme.min.css";
   /* Otros estilos específicos de tu carrusel, si es necesario */
 .glide_slide img{
-    width: 100%;
+    width: 100% !important;
 }
   </style>
   
