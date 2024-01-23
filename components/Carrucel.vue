@@ -4,7 +4,7 @@
         <div class="glide__track" data-glide-el="track">
           <ul class="glide__slides">
             <li class="glide__slide rounded-[24px] overflow-hidden" v-for="(foto, index) in fotos" :key="index">
-              <NuxtPicture :src="foto"></NuxtPicture>
+              <NuxtImg :src="foto"></NuxtImg>
             </li>
           </ul>
         </div>
