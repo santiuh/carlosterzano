@@ -8,42 +8,65 @@
         </div>
 
         <!-- FORMULARIO -->
-        <div class="bg-[#F9F3F3] flex flex-col px-[60px] pt-[34px] pb-[48px] rounded-3xl mt-[70px] gap-[26px]">
+        <div class="bg-[#F9F3F3] flex flex-col px-[60px] pt-[34px] pb-[48px] rounded-xl mt-[70px] gap-[26px]">
             <div class="flex flex-row gap-[60px]">
                 <div class="flex flex-col w-1/2">
                     <div class="text-xl font-bold leading-10">Nombre y Apellido</div>
-                    <input class="h-[60px] rounded-[4px] border border-[#DBD2D2]" type="text" name="" id="">
+                    <input class="h-[60px] focus:border-primary outline-none transition-all duration-300 px-5 rounded-[4px] border border-[#DBD2D2]" type="text" name="" id="">
                 </div>
                 <div class="flex flex-col w-1/2">
                     <div class="text-xl font-bold leading-10">Tipo de Evento</div>
-                    <select class="h-[60px] rounded-[4px] border border-[#DBD2D2]" name="" id=""></select>
-                </div>
+                    <div class="flex w-full relative">
+                        <select class="h-[60px] hover:cursor-pointer focus:border-primary outline-none transition-all duration-300 w-full pl-6 rounded-[4px] appearance-none border border-[#DBD2D2]" name="" id="">
+                            <option disabled selected value="">Seleccione una opción</option>
+                            <option value="">Selecciaa una opción</option>
+                        </select>
+                        <div class="border-l absolute top-[1px] right-[64px] h-[97%] border-[#DBD2D2] "></div>
+                    </div>
+               </div>
             </div>            <div class="flex flex-row gap-[60px]">
                 <div class="flex flex-col w-1/2">
                     <div class="text-xl font-bold leading-10">Correo Electrónico</div>
-                    <input class="h-[60px] rounded-[4px] border border-[#DBD2D2]" type="text" name="" id="">
+                    <input class="h-[60px] px-5 focus:border-primary outline-none transition-all duration-300  rounded-[4px] border border-[#DBD2D2]" type="text" name="" id="">
                 </div>
                 <div class="flex flex-col w-1/2">
                     <div class="text-xl font-bold leading-10">Cantidad de Invitados</div>
-                    <select class="h-[60px] rounded-[4px] border border-[#DBD2D2]" name="" id=""></select>
+                    <div class="flex w-full relative">
+                        <select class="h-[60px]  hover:cursor-pointer focus:border-primary outline-none transition-all duration-300 w-full pl-6 rounded-[4px] appearance-none border border-[#DBD2D2]" name="" id="">
+                            <option disabled selected value="">Seleccione una opción</option>
+                            <option value="">Selecciaa una opción</option>
+                        </select>
+                        <div class="border-l absolute top-[1px] right-[64px] h-[97%] border-[#DBD2D2] "></div>
+                    </div>
                 </div>
             </div>
             <div class="flex flex-row gap-[60px]">
                 <div class="flex flex-col w-1/2">
                     <div class="text-xl font-bold leading-10">Teléfono</div>
-                    <input  class="h-[60px] rounded-[4px] border border-[#DBD2D2]" type="text" name="" id="">
+                    <input  class="h-[60px] px-5 focus:border-primary outline-none transition-all duration-300  rounded-[4px] border border-[#DBD2D2]" type="text" name="" id="">
                 </div>
                 <div class="flex flex-col w-1/2">
                     <div class="text-xl font-bold leading-10">Fecha del Evento</div>
-                    <input class="h-[60px] rounded-[4px] border border-[#DBD2D2]" type="date" name="" id="">
+                    <div class="flex w-full relative">
+                        <input class="h-[60px] focus:border-primary outline-none transition-all duration-300 w-full pl-5 pr-6 rounded-[4px] border border-[#DBD2D2]" type="date" name="" id="">
+                        <div class="border-l absolute top-[1px] right-[64px] h-[97%] border-[#DBD2D2] "></div>
+                    </div>
                 </div>
             </div>
             <div class="flex flex-col">
                 <div class="text-xl font-bold leading-10">Mensaje</div>
-                <input class="h-[60px] rounded-[4px] border border-[#DBD2D2]" type="text" name="" id="">
+                <input class="h-[60px] px-5 focus:border-primary outline-none transition-all duration-300 rounded-[4px] border border-[#DBD2D2]" type="text" name="" id="">
             </div>
             <BotonesBoton class="mt-[20px]" texto="Enviar formulario"></BotonesBoton>
         </div>
 
     </section>
 </template>
+<style>
+select {
+    background-image: url("/chevron.svg");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 2em;
+}
+</style>

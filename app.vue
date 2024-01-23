@@ -14,8 +14,4 @@ useSeoMeta({
 body, html{
   scroll-behavior: smooth !important;
 }
-img{
-  max-width: none;
-  height: unset;
-}
 </style>

@@ -18,7 +18,7 @@ import type BotonVue from './botones/Boton.vue';
             <strong>¡Te invitamos a descubrir La Guillermina!</strong>
             <div class="flex flex-row justify-between  items-center pt-8">
                 <NuxtLink to="/servicios"><BotonesBoton texto="Conocé nuestros servicios"></BotonesBoton></NuxtLink>
-                <NuxtPicture src="/firma.png"></NuxtPicture>
+                <NuxtPicture src="/firma.svg"></NuxtPicture>
             </div> 
         </div>
     </section>

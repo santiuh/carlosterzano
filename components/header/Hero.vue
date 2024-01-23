@@ -2,8 +2,8 @@
     <header class=" h-[680px] xl:pt-9 justify-center flex bg-cover relative" :style="backgroundStyles">
         <div class="xl:max-w-[1440px] xl:px-[192px] flex flex-col w-full z-10">
             <HeaderNavbar></HeaderNavbar>
-            <div class="h-full flex items-center justify-center">
-                <NuxtPicture :src="props.frase"></NuxtPicture>
+            <div class="h-full w-full flex items-center justify-center">
+                <NuxtImg :src="props.frase"></NuxtImg>
 
             </div>
         </div>
