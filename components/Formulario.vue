@@ -8,7 +8,7 @@
         </div>
 
         <!-- FORMULARIO -->
-        <div class="bg-[#F9F3F3] flex flex-col px-[60px] pt-[34px] pb-[48px] rounded-xl mt-[70px] gap-[26px]">
+        <div class="bg-[#F9F3F3] flex flex-col px-[60px] pt-[34px] pb-[48px] rounded-3xl mt-[70px] gap-[26px]">
             <div class="flex flex-row gap-[60px]">
                 <div class="flex flex-col w-1/2">
                     <div class="text-xl font-bold leading-10">Nombre y Apellido</div>

@@ -9,7 +9,7 @@
                 profesionalidad, que te acompañan en todo el recorrido y organización de tu evento. Hacemos celebraciones a
                 medida, para crear recuerdos inolvidables.<strong>¿Estás listo para celebrar con nosotros?</strong> 
             </div>
-            <BotonesBoton texto="Conocé nuestros servicios" class="border border-white"></BotonesBoton>
+         <NuxtLink to="/Servicios"><BotonesBoton texto="Conocé nuestros servicios" class="border border-white"></BotonesBoton></NuxtLink>
         </div>
     </section>
 </template>

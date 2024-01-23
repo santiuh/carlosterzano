@@ -4,7 +4,7 @@
 <script setup>
 useSeoMeta({
   title: 'La Guillermina',
-  ogTitle: 'Grupo.DS -  Soluciones Inmobiliarias',
+  ogTitle: 'La Guillermina Eventos',
   description: 'Somos una inmobiliaria boutique con un concepto jóven. Priorizamos el servicio y la calidad, a la masividad y trabajamos de manera ordenada, transparente y al alcance de cada necesidad.',
   ogDescription: 'Somos una inmobiliaria boutique con un concepto jóven. Priorizamos el servicio y la calidad, a la masividad y trabajamos de manera ordenada, transparente y al alcance de cada necesidad.',
   ogImage: '/logo.svg',

@@ -3,7 +3,7 @@
       <HeaderHero id="Header" fondo="/header_index.jpeg" frase="/header_index_frase.svg"></HeaderHero>
       <Bienvenido></Bienvenido>
       <ComoHacemos></ComoHacemos>
-      <Carrucel></Carrucel>
+      <Carrucel :fotos="fotos"></Carrucel>
 
       <Formulario id="Contacto"></Formulario>
       <Footer
@@ -12,4 +12,6 @@
     </div>
   </template>
   <script setup>
+  const fotos = ['carr_index_1.png','carr_index_2.png','carr_index_3.png']
+
   </script>

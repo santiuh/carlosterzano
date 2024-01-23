@@ -12,8 +12,8 @@
                <li class="glide__slide rounded-xl overflow-hidden bg-[url(fiesta4.jpg)] bg-cover !h-[300px] !w-[400px]"> </li>      
                <li class="glide__slide rounded-xl overflow-hidden bg-[url(fiesta6.jpg)] bg-cover !h-[300px] !w-[400px]"> </li>       -->
 
-                <li class="glide__slide rounded-[24px] !w-[435px] overflow-hidden"  v-for="dato in data" >
-                    <NuxtPicture :src="dato" ></NuxtPicture>
+                <li class="glide__slide rounded-[24px] overflow-hidden"  v-for="foto in fotos" >
+                    <NuxtPicture :src="foto" ></NuxtPicture>
                 </li>            
 
             </ul>
@@ -32,7 +32,7 @@
   import { onMounted } from "vue";
   import Glide from "@glidejs/glide";
 
-  const data = ['carr_index_1.png','carr_index_2.png','carr_index_3.png']
+  const props = defineProps(['fotos'])
 
   onMounted(() => {
     new Glide(".glide" ,{

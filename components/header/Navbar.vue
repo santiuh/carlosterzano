@@ -1,12 +1,12 @@
 <template>
     <nav class="hidden xl:flex gap-4 text-white justify-between flex-col-reverse xl:flex-row fixed xl:static w-full transition-all duration-500 z-20">
-      <NuxtPicture src="/logo.svg"></NuxtPicture>
+      <NuxtLink class="hover:brightness-75 hover:cursor-pointer transition-all duration-300" to="/"><NuxtPicture src="/logo.svg"></NuxtPicture></NuxtLink>
       <div class="flex xl:gap-12 font-medium justify-between xl:justify-normal ">
         <NuxtLink class="hover:text-primary hover:cursor-pointer transition-all duration-300" to="/"> Inicio</NuxtLink>
         <NuxtLink class="hover:text-primary hover:cursor-pointer transition-all duration-300" :to="'/' + dato" v-for="dato in data">{{ dato }}</NuxtLink>
         <NuxtLink class="hover:text-primary hover:cursor-pointer transition-all duration-300" to="/#Contacto" >Contacto</NuxtLink>
         <div class="flex flex-row gap-[9px]">
-          <a target="_blank" href="https://www.instagram.com/laguillerminaeventos/">  <NuxtPicture class="hover:brightness-75 hover:cursor-pointer tranisition-all duration-300" src="instagram.svg" width="24px" height="24px"></NuxtPicture></a>
+          <a target="_blank" href="https://www.instagram.com/laguillerminaeventos/">  <NuxtPicture class="hover:brightness-75 hover:cursor-pointer tranisition-all duration-300 " src="instagram.svg" width="24px" height="24px"></NuxtPicture></a>
           <a target="_blank" href="https://www.facebook.com/laguillerminaeventos/">  <NuxtPicture class="hover:brightness-75 hover:cursor-pointer transition-all duration-300" src="facebook.svg" width="24px" height="24px"></NuxtPicture></a>
         </div>
       </div>
