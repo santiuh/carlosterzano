@@ -25,3 +25,8 @@ const backgroundStyles = computed(() => {
 })
     
 </script>
+<style scoped>
+img{
+    width: 100% !important;
+}
+</style>

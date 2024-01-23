@@ -22,7 +22,7 @@
                 </div>
             </div>
         </div>
-        <NuxtPicture src="/eventos_sociales.png"></NuxtPicture>
+        <NuxtPicture class="w-1/2" id="sociales" src="/eventos_sociales.png"></NuxtPicture>
     </section>
 </template>
 <script setup>
@@ -30,3 +30,9 @@ const data = ['Cumpleaños de 15.','Bodas.','Comuniones.','Bautismos.']
 const data2 = ['Bar y Bar Mitzvá.','Baby Shower.','Despedidas.','Fiestas Privadas.']
 
 </script>
+<style>
+#sociales img{
+    width: 100% !important;
+
+}
+</style>

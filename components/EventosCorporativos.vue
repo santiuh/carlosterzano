@@ -13,9 +13,14 @@
                 </div>
             </div>
         </div>
-        <NuxtPicture src="/eventos_corporativos.png"></NuxtPicture>
+        <NuxtPicture class="w-1/2" id="corporativos" src="/eventos_corporativos.png"></NuxtPicture>
     </section>
 </template>
 <script setup>
 const data = ['Convenciones.','Work Shop.','Lanzamientos.','Cursos y Congresos.','Reuniones Empresariales.']
 </script>
+<style>
+#corporativos img{
+    width: 100% !important;
+
+}</style>
