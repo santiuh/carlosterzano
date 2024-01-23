@@ -44,10 +44,13 @@
     });
   </script>
   
-  <style>
+  <style scoped>
   /* Importa los estilos CSS de Glide.js aquí */
   @import "@glidejs/glide/dist/css/glide.core.min.css";
   @import "@glidejs/glide/dist/css/glide.theme.min.css";
   /* Otros estilos específicos de tu carrusel, si es necesario */
+.glide_slide img{
+    width: 100%;
+}
   </style>
   
