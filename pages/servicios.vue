@@ -3,12 +3,12 @@
       <HeaderHero id="Header" fondo="header_servicios.png" frase="/header_servicios_frase.svg"></HeaderHero>
       <ServiciosSeccion></ServiciosSeccion>
       <Cuadricula></Cuadricula>
-      <Carrucel :fotos="carrServicios"></Carrucel>
+      <Carrucel :fotos="carrServicios" carouselId="carousel_servicios"></Carrucel>
       <NuestroCatering></NuestroCatering>
-      <Carrucel :fotos="carrCatering"></Carrucel>
+      <Carrucel :fotos="carrCatering"  carouselId="carousel_catering"></Carrucel>
       <EventosCorporativos></EventosCorporativos>
       <EventosSociales></EventosSociales>
-      <Carrucel :fotos="carrEventos"></Carrucel>
+      <Carrucel :fotos="carrEventos"  carouselId="carousel_eventos"></Carrucel>
 
       <Footer id="Contacto"></Footer>
     

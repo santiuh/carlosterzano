@@ -3,7 +3,7 @@
       <HeaderHero id="Header" fondo="/header_index.jpeg" frase="/header_index_frase.svg"></HeaderHero>
       <Bienvenido></Bienvenido>
       <ComoHacemos></ComoHacemos>
-      <Carrucel :fotos="fotos"></Carrucel>
+      <Carrucel :fotos="fotos" carouselId="carousel_index"></Carrucel>
 
       <Formulario id="Contacto"></Formulario>
       <Footer

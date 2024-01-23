@@ -1,49 +1,47 @@
-<template>    
-    <div class="glide flex flex-row gap-2 py-10 px-[75px]" style="background: linear-gradient(90deg, #FBF5F5 0%, #EFE1E1 100%);;">
-        <div
-        data-glide-el="controls"
-        class="self-center flex xl:hidden">
+<template>
+    <section class="flex justify-center" style="background: linear-gradient(90deg, #FBF5F5 0%, #EFE1E1 100%);">
+      <div :id="carouselId" class="glide py-10 px-[195px] max-w-[1440px]">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide rounded-[24px] overflow-hidden" v-for="(foto, index) in fotos" :key="index">
+              <NuxtPicture :src="foto"></NuxtPicture>
+            </li>
+          </ul>
         </div>
-        <div class="glide__track " data-glide-el="track">
-            <ul class="glide__slides">
-               <!-- <li class="glide__slide rounded-xl overflow-hidden bg-[url(fiesta.jpg)] bg-cover !h-[300px] !w-[400px]"></li>
-               <li class="glide__slide rounded-xl overflow-hidden bg-[url(fiesta2.jpg)] bg-cover !h-[300px] !w-[400px]"> </li>      
-               <li class="glide__slide rounded-xl overflow-hidden bg-[url(fiesta3.jpg)] bg-cover !h-[300px] !w-[400px]"> </li>      
-               <li class="glide__slide rounded-xl overflow-hidden bg-[url(fiesta4.jpg)] bg-cover !h-[300px] !w-[400px]"> </li>      
-               <li class="glide__slide rounded-xl overflow-hidden bg-[url(fiesta6.jpg)] bg-cover !h-[300px] !w-[400px]"> </li>       -->
-
-                <li class="glide__slide rounded-[24px] overflow-hidden"  v-for="foto in fotos" >
-                    <NuxtPicture :src="foto" ></NuxtPicture>
-                </li>            
-
-            </ul>
+        <div :data-glide-el="'controls-' + carouselId" class="h-0">
+          <NuxtImg
+            width="32px"
+            src="/chevron-left.svg"
+            :data-glide-dir="'<'"
+            class="absolute top-[45%] left-0 ml-[180px] z-50 text-white font-semibold hover:scale-150 transition-transform">
+          </NuxtImg>
+          <NuxtImg
+            width="32px"
+            src="/chevron-right.svg"
+            :data-glide-dir="'> '"
+            class="absolute top-[45%] right-0 mr-[180px] z-50 text-white font-semibold hover:scale-150 transition-transform">
+          </NuxtImg>
         </div>
-        <div data-glide-el="controls" class="self-center flex xl:hidden">
-            <button
-                data-glide-dir=">"
-                class="text-[40px] pl-2 text-white font-semibold hover:scale-150 transition-transform z-30">
-                >
-            </button>
-        </div>
-    </div>
-</template>
+      </div>
+    </section>
+  </template>
   
   <script setup>
   import { onMounted } from "vue";
   import Glide from "@glidejs/glide";
-
-  const props = defineProps(['fotos'])
-
+  
+  const { fotos, carouselId } = defineProps(["fotos", "carouselId"]);
+  
   onMounted(() => {
-    new Glide(".glide" ,{
-        type: 'carousel',
-        autoplay: 0,
-        animationDuration: 7000,
-        animationTimingFunc: 'linear',
-        perView: 3,
-        gap: 16,
-    }).mount();
-  });
+    new Glide(`#${carouselId}`, {
+      type: "carousel",
+      autoplay: 0,
+      animationDuration: 300,
+      animationTimingFunc: "linear",
+      perView: 3,
+      gap: 16,
+      }).mount();
+    });
   </script>
   
   <style>
@@ -52,3 +50,4 @@
   @import "@glidejs/glide/dist/css/glide.theme.min.css";
   /* Otros estilos específicos de tu carrusel, si es necesario */
   </style>
+  
