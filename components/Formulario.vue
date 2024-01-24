@@ -1,6 +1,6 @@
 <template>
-    <section class="flex flex-col xl:max-w-[1440px] self-center xl:px-[192px] xl:pt-[60px] pb-[100px]">
-        <div class="text-title text-[64px] tracking-[1.28px]">Contacto</div>
+    <section class="flex flex-col xl:max-w-[1440px] self-center px-4 xl:px-[192px] xl:pt-[60px] pb-[100px]">
+        <div class="text-title text-center xl:text-start text-[64px] tracking-[1.28px]">Contacto</div>
         <div class="font-bold text-xl leading-10 pt-[55px]">¡Estamos para ayudarte! Hacé tu consulta. </div>
         <br>
         <div class="text-xl text-justify leading-10">
@@ -8,13 +8,13 @@
         </div>
 
         <!-- FORMULARIO -->
-        <div class="bg-[#F9F3F3] flex flex-col px-[60px] pt-[34px] pb-[48px] rounded-xl mt-[70px] gap-[26px]">
-            <div class="flex flex-row gap-[60px]">
-                <div class="flex flex-col w-1/2">
+        <div class="bg-[#F9F3F3] flex flex-col px-4 xl:px-[60px] pt-[34px] pb-[48px] rounded-xl mt-[70px] gap-[26px]">
+            <div class="flex flex-col xl:flex-row gap-[60px]">
+                <div class="flex flex-col xl:w-1/2">
                     <div class="text-xl font-bold leading-10">Nombre y Apellido</div>
                     <input class="h-[60px] focus:border-primary outline-none transition-all duration-300 px-5 rounded-[4px] border border-[#DBD2D2]" type="text" name="" id="">
                 </div>
-                <div class="flex flex-col w-1/2">
+                <div class="flex flex-col xl:w-1/2">
                     <div class="text-xl font-bold leading-10">Tipo de Evento</div>
                     <div class="flex w-full relative">
                         <select class="h-[60px] hover:cursor-pointer focus:border-primary outline-none transition-all duration-300 w-full pl-6 rounded-[4px] appearance-none border border-[#DBD2D2]" name="" id="">
@@ -24,12 +24,12 @@
                         <div class="border-l absolute top-[1px] right-[64px] h-[97%] border-[#DBD2D2] "></div>
                     </div>
                </div>
-            </div>            <div class="flex flex-row gap-[60px]">
-                <div class="flex flex-col w-1/2">
+            </div>            <div class="flex flex-col xl:flex-row gap-[60px]">
+                <div class="flex flex-col xl:w-1/2">
                     <div class="text-xl font-bold leading-10">Correo Electrónico</div>
                     <input class="h-[60px] px-5 focus:border-primary outline-none transition-all duration-300  rounded-[4px] border border-[#DBD2D2]" type="text" name="" id="">
                 </div>
-                <div class="flex flex-col w-1/2">
+                <div class="flex flex-col xl:w-1/2">
                     <div class="text-xl font-bold leading-10">Cantidad de Invitados</div>
                     <div class="flex w-full relative">
                         <select class="h-[60px]  hover:cursor-pointer focus:border-primary outline-none transition-all duration-300 w-full pl-6 rounded-[4px] appearance-none border border-[#DBD2D2]" name="" id="">
@@ -40,12 +40,12 @@
                     </div>
                 </div>
             </div>
-            <div class="flex flex-row gap-[60px]">
-                <div class="flex flex-col w-1/2">
+            <div class="flex flex-col xl:flex-row gap-[60px]">
+                <div class="flex flex-col xl:w-1/2">
                     <div class="text-xl font-bold leading-10">Teléfono</div>
                     <input  class="h-[60px] px-5 focus:border-primary outline-none transition-all duration-300  rounded-[4px] border border-[#DBD2D2]" type="text" name="" id="">
                 </div>
-                <div class="flex flex-col w-1/2">
+                <div class="flex flex-col xl:w-1/2">
                     <div class="text-xl font-bold leading-10">Fecha del Evento</div>
                     <div class="flex w-full relative">
                         <input class="h-[60px] focus:border-primary outline-none transition-all duration-300 w-full pl-5 pr-6 rounded-[4px] border border-[#DBD2D2]" type="date" name="" id="">

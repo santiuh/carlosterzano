@@ -1,5 +1,5 @@
 <template>
-    <section class="xl:max-w-[1440px] px-[192px] pb-[115px] flex flex-row-reverse self-center gap-[60px]">
+    <section class="xl:max-w-[1440px] px-4 xl:px-[192px] pb-[115px] flex flex-row-reverse self-center gap-[60px]">
         <div class="flex flex-col w-1/2">
             <div class="text-title text-[64px]">Eventos Sociales</div>
             <div class="text-xl leading-10 text-justify pb-[30px]">
