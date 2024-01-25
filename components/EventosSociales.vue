@@ -1,7 +1,8 @@
 <template>
     <section class="xl:max-w-[1440px] px-4 xl:px-[192px] pb-[115px] flex flex-row-reverse self-center gap-[60px]">
-        <div class="flex flex-col w-1/2">
-            <div class="text-title text-[64px]">Eventos Sociales</div>
+        <div class="flex flex-col xl:w-1/2">
+            <div class="text-title xl:text-[64px] text-[36px] text-center xl:text-start">Eventos Sociales</div>
+            <NuxtPicture class="xl:w-1/2 flex xl:hidden" id="sociales" src="/eventos_sociales.png"></NuxtPicture>
             <div class="text-xl leading-10 text-justify pb-[30px]">
                 Desde tu idea a la realidad. <strong>  Te acompañamos en todos los detalles para que tu evento sea único. </strong>
             </div>
@@ -22,7 +23,7 @@
                 </div>
             </div>
         </div>
-        <NuxtPicture class="w-1/2" id="sociales" src="/eventos_sociales.png"></NuxtPicture>
+        <NuxtPicture class="xl:w-1/2 hidden xl:flex" id="sociales" src="/eventos_sociales.png"></NuxtPicture>
     </section>
 </template>
 <script setup>

@@ -1,21 +1,21 @@
 <template>
   <div class="w-full flex flex-col" style="  background: linear-gradient(90deg, #BA8F65 0%, #936D47 100%);">
-    <footer class="flex flex-col h-[453px] pt-[57px] text-white items-center">
-        <div class="flex xl:px-4 xl:px-[192px] pb-[74px] gap-[32px] xl:max-w-[1440px] h-full w-full flex-col xl:flex-row ">
+    <footer class="flex flex-col xl:h-[453px] pt-[57px] text-white items-center text-center xl:text-start">
+        <div class="flex px-4 xl:px-[192px] pb-[74px] gap-[32px] xl:max-w-[1440px] h-full w-full flex-col xl:flex-row ">
               <div class="flex flex-col justify-between ">
-                <div class="text-[32px] font-extrabold tracking-[0.64px]">Contacto</div>
-                <NuxtLink class="hover:brightness-75 hover:cursor-pointer transition-all duration-300" to="/"><NuxtPicture src="/logo.svg"></NuxtPicture></NuxtLink>
+                <div class="text-[32px] font-extrabold tracking-[0.64px] ">Contacto</div>
+                <NuxtLink class="hover:brightness-75 hidden xl:flex hover:cursor-pointer transition-all duration-300" to="/"><NuxtPicture src="/logo.svg"></NuxtPicture></NuxtLink>
               </div>  
           
-              <div class=" flex flex-col xl:flex-row text-xl gap-[124px] xl:pt-3 xl:pl-0 ">
+              <div class=" flex flex-col-reverse xl:flex-row text-xl gap-4 xl:gap-[124px] xl:pt-3 xl:pl-0 ">
                 <div class="flex flex-col gap-4 xl:mr-[57px] ">
                   <div class="flex flex-col">
                     <div class=" font-medium xl:mb-[14px] ">Teléfono</div>
                     <div>11 2524-3083</div>
                   </div>
-                  <div class="flex flex-col">
+                  <div class="flex flex-col gap-1 xl:gap-0">
                     <div class="font-medium xl:mb-[14px]">Redes Sociales</div>
-                    <div class="flex flex-row gap-5">
+                    <div class="flex flex-row gap-5 self-center xl:self-start">
                       <a target="_blank" href="https://www.instagram.com/laguillerminaeventos/">  <NuxtPicture class="hover:brightness-75 hover:cursor-pointer tranisition-all duration-300" src="instagram.svg" width="24px" height="24px"></NuxtPicture></a>
                       <a target="_blank" href="https://www.facebook.com/laguillerminaeventos/">  <NuxtPicture class="hover:brightness-75 hover:cursor-pointer transition-all duration-300" src="facebook.svg" width="24px" height="24px"></NuxtPicture></a>
                   </div>
@@ -23,7 +23,7 @@
 
 
                 </div>
-                <div class="flex flex-col gap-4 xl:mr-[57px] ">
+                <div class="flex flex-col-reverse xl:flex-col gap-4 xl:mr-[57px] ">
                   <div class="flex flex-col">
                     <div class=" font-extrabold   xl:mb-[14px]">Dirección</div>
                     <div  class="  ">Caxaraville 1803, Ituzaingó</div>
