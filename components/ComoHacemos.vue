@@ -9,7 +9,7 @@
                 <NuxtPicture class="float-left self-center xl:hidden mr-[1rem]" src="Deco.svg"></NuxtPicture>
                 Amamos lo que hacemos y trabajamos con un equipo de profesionales con nuestra misma energía y
                 profesionalidad, que te acompañan en todo el recorrido y organización de tu evento. Hacemos celebraciones a
-                medida, para crear recuerdos inolvidables.<br><strong>¿Estás listo para celebrar con nosotros?</strong> 
+                medida, para crear recuerdos inolvidables. <strong>¿Estás listo para celebrar con nosotros?</strong> 
             </div>
          <NuxtLink class="flex justify-center xl:justify-start" to="/Servicios"><BotonesBoton texto="Conocé nuestros servicios" class="border border-white"></BotonesBoton></NuxtLink>
         </div>
