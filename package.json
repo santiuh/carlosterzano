@@ -19,6 +19,8 @@
   },
   "dependencies": {
     "@glidejs/glide": "^3.6.0",
-    "aos": "^2.3.4"
+    "@nuxtjs/axios": "^5.13.6",
+    "aos": "^2.3.4",
+    "nuxt-mail": "^4.0.2"
   }
 }

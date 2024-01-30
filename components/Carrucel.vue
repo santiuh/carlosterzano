@@ -13,13 +13,13 @@
             width="32px"
             src="/chevron-left.svg"
             :data-glide-dir="'<'"
-            class="absolute top-[45%] left-0 xl:ml-[180px] z-10 text-white font-semibold hover:scale-150 transition-transform">
+            class="absolute top-[45%] left-0 xl:ml-[180px] z-10 text-white font-semibold hover:scale-150 active:scale-125 transition-transform">
           </NuxtImg>
           <NuxtImg
             width="32px"
             src="/chevron-right.svg"
             :data-glide-dir="'> '"
-            class="absolute top-[45%] right-0 xl:mr-[180px] z-10 text-white font-semibold hover:scale-150 transition-transform">
+            class="absolute top-[45%] right-0 xl:mr-[180px] z-10 text-white font-semibold hover:scale-150 active:scale-125 transition-transform">
           </NuxtImg>
         </div>
       </div>
