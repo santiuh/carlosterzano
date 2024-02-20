@@ -2,7 +2,7 @@
     <section class="xl:max-w-[1440px] px-4 xl:px-[192px] pt-[100px] pb-[89px] flex flex-row self-center gap-[60px]">
         <div class="flex flex-col xl:w-1/2" >
             <div class="text-title text-[36px] xl:text-[64px] text-center xl:text-start ">Eventos Corporativos</div>
-            <NuxtPicture class="flex xl:hidden" id="corporativos" src="/eventos_corporativos.png"></NuxtPicture>
+            <NuxtPicture class="flex xl:hidden" id="corporativos" src="/eventos_corporativos2.png"></NuxtPicture>
 
             <div class="text-xl leading-10 text-justify pb-[30px]">
                 Reflejamos la cultura de tu empresa en cada detalle y adaptamos nuestro <strong>salón a las necesidades de cada evento. </strong>
@@ -15,7 +15,7 @@
                 </div>
             </div>
         </div>
-        <NuxtPicture class="xl:w-1/2 hidden xl:flex" id="corporativos" src="/eventos_corporativos.png"></NuxtPicture>
+        <NuxtPicture class="xl:w-1/2 hidden xl:flex" id="corporativos" src="/eventos_corporativos2.png"></NuxtPicture>
     </section>
 </template>
 <script setup>

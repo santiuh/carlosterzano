@@ -3,7 +3,7 @@
       <div :id="carouselId" class="glide py-10 px-4 xl:px-[192px] max-w-[1440px]">
         <div class="glide__track" data-glide-el="track">
           <ul class="glide__slides">
-            <li class="glide__slide rounded-[24px] overflow-hidden" v-for="(foto, index) in fotos" :key="index">
+            <li class="glide__slide rounded-[24px] overflow-hidden h-[311px]" v-for="(foto, index) in fotos" :key="index">
               <NuxtImg :src="foto"></NuxtImg>
             </li>
           </ul>
