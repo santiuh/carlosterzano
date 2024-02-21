@@ -4,7 +4,7 @@
         <div class="font-bold text-xl leading-10 xl:pt-[55px] text-center xl:text-start">¡Estamos para ayudarte!<br class="flex xl:hidden"> Hacé tu consulta. </div>
         <br>
         <div class="text-xl text-justify leading-10">
-            Completá el formulario y recibí asesoramiento personalizado. Consultá por fechas disponibles para tu evento y presupuestos. <strong> Comenzá a vivir #TuFiestaSoñada.</strong>
+            Completá {{ data }} el formulario y recibí asesoramiento personalizado. Consultá por fechas disponibles para tu evento y presupuestos. <strong> Comenzá a vivir #TuFiestaSoñada.</strong>
         </div>
 
         <!-- FORMULARIO -->
@@ -58,15 +58,17 @@
                 <textarea v-model="mensaje.mensaje" class="overflow-auto p-5 focus:border-primary outline-none transition-all duration-300 rounded-[4px] border border-[#DBD2D2]" type="text" name="" id=""></textarea>
             </div>
             <div class="h-0 overflow-hidden transition-all text-red-700 font-bold" :class="mostrarDiv? 'h-[2em]' : ''">Debe completar todos los campos para enviar el formulario.</div>
-            <BotonesBoton :class="formularioDesactivado ? '!bg-gray-400 hover:!scale-100' : ''" class=" mt-[20px]"  texto="Enviar formulario" @click="formularioDesactivado? prevenirClick() : enviarCorreo()"></BotonesBoton>
+
+            <BotonesBoton :class="formularioDesactivado ? '!bg-gray-400 hover:!scale-100' : ''" class=" mt-[20px] min-h-16 items-center xl:min-w-56"  texto="Enviar formulario" :spin="mostrarSpin" @click="formularioDesactivado? prevenirClick() : enviarCorreo()"></BotonesBoton>
         </div>
+        <Modal :mostrar="mostrarModal" :contenido="mensajeModal">
+            <BotonesBoton texto="Aceptar"  @click="mostrarModal = false"></BotonesBoton>
+        </Modal>
   </section>
 </template>
 <script setup >
 
-useHead({
-  script: [{  src: 'https://smtpjs.com/v3/smtp.js'}],
-});
+const mail = useMail()
 
 const mensaje = ref({
   cliente:'',
@@ -79,7 +81,11 @@ const mensaje = ref({
 
 })
 
+const mostrarSpin = ref(false)
 const mostrarDiv = ref(false)
+const mostrarModal = ref(false)
+const mensajeModal = ref('')
+
 const formularioDesactivado = computed(() => {
       const m = mensaje.value;
       return (
@@ -101,18 +107,29 @@ const prevenirClick = () => {
 }
 
 
+
+
+
 const enviarCorreo = () => {
-Email.send({
-    Host : "smtp.elasticemail.com",
-    Username : "santiagogirolami@gmail.com",
-    Password : "4A54422E39799892650AD5DE47382BA4FC98",
-    To : 'santiagogirolami@gmail.com',
-    From : "santiagogirolami@gmail.com",
-    Subject : mensaje.value.cliente +'-'+mensaje.value.tipodeevento,
-    Body: '" <div style="background-color: palevioletred; color: white; text-align:center; font-size: x-large; font-weight: bold; padding: 12px;"> SOLICITUD DE CONTACTO</div><div style="background-color: #F9F3F3; padding-left: 10rem; padding-right: 10rem; padding-top: 1rem; padding-bottom: 4rem;">       <div style="font-size: large; padding: 5px;"><span>Nombre:</span> <strong>'+mensaje.value.cliente+'</strong></div><div style="font-size: large; padding: 5px;"><span>Correo:</span> <strong>'+mensaje.value.correo+'</strong></div> <div style="font-size: large; padding: 5px;"><span>Teléfono:</span> <strong>'+mensaje.value.telefono+'</strong></div><div style="font-size: large; padding: 5px;"><span>Tipo de evento:</span> <strong>'+mensaje.value.tipodeevento+'</strong></div><div style="font-size: large; padding: 5px;"><span>Fecha del Evento:</span> <strong>'+mensaje.value.fechadelevento+'</strong></div><div style="font-size: large; padding: 5px;"><span>Cantidad de Invitados:</span> <strong>'+mensaje.value.cantidaddeinvitados+'</strong> </div> <div style="font-size: large; padding: 5px;">Mensaje:</div><div style="background-color: white; padding: 1rem; border-radius: 10px; margin-top: 1rem;">'+mensaje.value.mensaje+'</div>   </div>   "'}).then(
-  message => alert(message)
-);
-    }
+    mostrarSpin.value = true;
+    mail.send({
+        to: 'santiagogirolami@gmail.com',
+        from: 'santiagogirolami@gmail.com',
+        subject: mensaje.value.cliente + '-' + mensaje.value.tipodeevento,
+        html: '<div style="background-color: palevioletred; color: white; text-align:center; font-size: x-large; font-weight: bold; padding: 12px;">SOLICITUD DE CONTACTO</div><div style="background-color: #F9F3F3; padding-left: 10rem; padding-right: 10rem; padding-top: 1rem; padding-bottom: 4rem;"><div style="font-size: large; padding: 5px;"><span>Nombre:</span> <strong>'+mensaje.value.cliente+'</strong></div><div style="font-size: large; padding: 5px;"><span>Correo:</span> <strong>'+mensaje.value.correo+'</strong></div> <div style="font-size: large; padding: 5px;"><span>Teléfono:</span> <strong>'+mensaje.value.telefono+'</strong></div><div style="font-size: large; padding: 5px;"><span>Tipo de evento:</span> <strong>'+mensaje.value.tipodeevento+'</strong></div><div style="font-size: large; padding: 5px;"><span>Fecha del Evento:</span> <strong>'+mensaje.value.fechadelevento+'</strong></div><div style="font-size: large; padding: 5px;"><span>Cantidad de Invitados:</span> <strong>'+mensaje.value.cantidaddeinvitados+'</strong> </div> <div style="font-size: large; padding: 5px;">Mensaje:</div><div style="background-color: white; padding: 1rem; border-radius: 10px; margin-top: 1rem;">'+mensaje.value.mensaje+'</div></div>'
+    })
+    .then(() => {
+        mostrarSpin.value = false;
+        mensajeModal.value = 'Formulario enviado correctamente.'
+        mostrarModal.value = true
+    })
+    .catch((error) => {
+        mostrarSpin.value = false;
+        mensajeModal.value = 'Un error ha ocurrido al intentar enviar el formulario.'
+        mostrarModal.value = true
+    });
+};
+
 </script>
 <style>
 select {
