@@ -18,7 +18,7 @@ const props = defineProps(['fondo','frase','filtro'])
 
 const img = useImage()
 const backgroundStyles = computed(() => {
-  const imgUrl = img(props.fondo, { format:'avif' })
+  const imgUrl = img(props.fondo, { format:'webp' })
   return { backgroundImage: `url('${imgUrl}')`,
   backgroundPositionY: '30%',   
 }
