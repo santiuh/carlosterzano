@@ -6,7 +6,7 @@
             <div class="text-xl leading-10 text-justify pb-[30px]">
                 Desde tu idea a la realidad. <strong>  Te acompañamos en todos los detalles para que tu evento sea único. </strong>
             </div>
-            <div class="flex flex-col x:flex-row gap-[34px] xl:gap-0 justify-between">
+            <div class="flex flex-col xl:flex-row gap-[34px] xl:gap-0 justify-between">
                 <div class="flex flex-col gap-[34px]">
                     <div class="flex flex-row text-xl font-bold xl:gap-5 gap-2 " v-for="dato in data">
                         <NuxtPicture src="/Deco2.svg"></NuxtPicture>
