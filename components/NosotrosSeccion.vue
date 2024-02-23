@@ -9,11 +9,11 @@ import type BotonVue from './botones/Boton.vue';
         <div class="text-title text-[64px] text-center xl:text-start">Nosotros</div>
         <div class="flex flex-col text-xl leading-10 text-justify">
             <p>
-            <strong>¡Bienvenidos!</strong> Somos Juli, Belén y Pablo, y somos los fundadores de La Guillermina y quienes llevan adelante cada celebración y evento, junto con un gran equipo detrás que nos ayuda todos los días a lograr nuestros objetivos para que todo salga tal cual lo imaginabas.
+            <strong>¡Bienvenidos!</strong> Somos Belén, Pablo y Juli, y somos los fundadores de La Guillermina y quienes llevan adelante cada celebración y evento, junto con un gran equipo detrás que nos ayuda todos los días a lograr nuestros objetivos para que todo salga tal cual lo imaginabas.
             </p>
             <br>
             La Guillermina es mucho más que un salón de eventos, es parte de nuestra historia familiar y es también un lugar donde crecimos y pasamos muchos momentos en familia. Porque es parte de nosotros, queremos hacerte sentir como en casa en tu propia celebración. Nuestro objetivo es mejorar cada día nuestro servicio un poco más y convertir cada evento realizado en un recuerdo para toda la vida.
-            <br>
+            <br>    
             <br>
             <NuxtPicture class="xl:hidden w-[90vw] self-center" src="/firma.svg"></NuxtPicture>
             <strong class="text-center xl:text-start">¡Te invitamos a descubrir La Guillermina!</strong>

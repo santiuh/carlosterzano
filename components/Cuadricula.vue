@@ -8,15 +8,15 @@
   
   <script setup>
   const data = [
-    {url:'/grupo.svg',texto:'Capacidad para 120 personas.'},
-    {url:'/lamparita.svg',texto:'Iluminación robótica de última generación.'},
-    {url:'/parlante.svg',texto:'Sonido de última generación.'},
-    {url:'/cable.svg',texto:'Grupo electrógeno.'},
-    {url:'/latido.svg',texto:'Asistencia médica.'},
-    {url:'/vestido.svg',texto:'Suite privada y camarín.'},
-    {url:'/seguridad.svg',texto:'Seguridad privada.'},
+    {url:'/grupo.svg',texto:'Capacidad para 120 personas'},
+    {url:'/lamparita.svg',texto:'Iluminación robótica de última generación'},
+    {url:'/parlante.svg',texto:'Sonido de última generación'},
+    {url:'/cable.svg',texto:'Grupo electrógeno'},
+    {url:'/latido.svg',texto:'Asistencia médica'},
+    {url:'/vestido.svg',texto:'Suite privada y camarín'},
+    {url:'/seguridad.svg',texto:'Seguridad privada'},
     {url:'/coche.svg',texto:'Estacionamiento interno'},
-    {url:'/catering.svg',texto:'Catering exclusivo.'},
+    {url:'/catering.svg',texto:'Catering exclusivo'},
   ];
   </script>
   

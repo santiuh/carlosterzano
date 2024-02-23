@@ -19,7 +19,11 @@
                     <div class="flex w-full relative">
                         <select v-model="mensaje.tipodeevento" class="h-[60px] hover:cursor-pointer focus:border-primary outline-none transition-all duration-300 w-full pl-6 rounded-[4px] appearance-none border border-[#DBD2D2]" name="" id="">
                             <option disabled selected value="">Seleccione una opción</option>
-                            <option value="Bar Mitzvá">Bar Mitzvá</option>
+                            <option value="Boda">Boda</option>
+                            <option value="15 Años">15 Años</option>
+                            <option value="Corporativos">Corporativos</option>
+                            <option value="Bautismo">Bautismo</option>
+                            <option value="Otros">Otros</option>
                         </select>
                         <div class="border-l absolute top-[1px] right-[64px] h-[97%] border-[#DBD2D2] "></div>
                     </div>
@@ -34,7 +38,9 @@
                     <div class="flex w-full relative">
                         <select v-model="mensaje.cantidaddeinvitados" class="h-[60px]  hover:cursor-pointer focus:border-primary outline-none transition-all duration-300 w-full pl-6 rounded-[4px] appearance-none border border-[#DBD2D2]" name="" id="">
                             <option disabled selected value="">Seleccione una opción</option>
-                            <option value="200">200</option>
+                            <option value="50 a 80">50 a 80</option>
+                            <option value="80 a 100">80 a 100</option>
+                            <option value="100 a 120">100 a 120</option>
                         </select>
                         <div class="border-l absolute top-[1px] right-[64px] h-[97%] border-[#DBD2D2] "></div>
                     </div>
