@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col tracking-[0.2px] font-lexend " style="scroll-behavior: smooth;">
-      <HeaderHero id="Header" fondo="/portada1.jpg" frase="/header_index_frase.svg" filtro="rgba(79, 59, 48, 0.70)" class="bg-bottom"></HeaderHero>
+      <HeaderHero id="Header" fondo="/portada1.png" frase="/header_index_frase.svg" filtro="rgba(79, 59, 48, 0.70)" class="bg-bottom"></HeaderHero>
       <Bienvenido></Bienvenido>
       <ComoHacemos></ComoHacemos>
       <Carrucel :fotos="fotos" carouselId="carousel_index"></Carrucel>
