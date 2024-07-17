@@ -1,6 +1,6 @@
 <template>
     <div>
-      <ul class="flex flex-row gap-[75px] justify-around w-full max-w-[1440px]" v-if="videos.length">
+      <ul class="flex flex-col xl:flex-row gap-[75px] justify-around w-full max-w-[1440px]" v-if="videos.length">
         <li v-for="video in videos" :key="video.id.videoId">
           <div class="flex rounded-3xl overflow-hidden relative ">
             <iframe
@@ -13,7 +13,7 @@
             ></iframe>
             <div   v-show="playingVideoId !== video.id.videoId"
             @click="playVideo(video.id.videoId)"
-             class="absolute flex flex-col w-full bg-[url('/ctFondo.png')] h-full pt-5 justify-between">
+             class="absolute xl:flex flex-col w-full bg-[url('/ctFondo.png')] h-full hidden pt-5 justify-between">
                 <div class="flex flex-row self-center items-center border rounded-2xl px-2 bg-[#e9e9e950]">
                     <NuxtImg class="!h-[32px] !w-auto border-r-2 pr-2" src="/ctFecha.svg"></NuxtImg>
                     <div class="text-white  text-[32px] pl-2 "> {{ formatDate(video.snippet.publishedAt) }} </div>
@@ -35,8 +35,8 @@
     data() {
       return {
         videos: [],
-        apiKey: 'AIzaSyC9mzQZPU4IbQ4lyH1bjEu0S6D5KkyfYQ4',  // Reemplaza con tu clave API
-        channelId: 'UC8LXGbu7wYcu1s6Mu9mC-Ag',    // Reemplaza con el ID del canal
+        apiKey: 'AIzaSyC9mzQZPU4IbQ4lyH1bjEu0S6D5KkyfYQ4',  
+        channelId: 'UC8LXGbu7wYcu1s6Mu9mC-Ag',  
         maxResults: 3,
         playingVideoId: null,
 

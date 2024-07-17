@@ -1,7 +1,5 @@
 <template>
-    <button>
-
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="310.213" height="262.413" viewBox="0 0 310.213 262.413">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 310.213 262.413">
   <defs>
     <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#8da1fa"/>
@@ -20,6 +18,5 @@ desarrollo personal" transform="translate(41.19 156.402)" fill="#e9e9e9" font-si
   </g>
   <path id="Trazado_109" data-name="Trazado 109" d="M4590.191,718.6h-33.763a2.748,2.748,0,1,0,0,5.5h33.763a2.748,2.748,0,1,0,0-5.5Z" transform="translate(-4512.453 -507.635)" fill="#8da1fa"/>
 </svg>
-</button>
 
 </template>

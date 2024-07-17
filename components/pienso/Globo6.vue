@@ -1,5 +1,5 @@
 <template>
-    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="446.719" height="394.861" viewBox="0 0 446.719 394.861">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  viewBox="0 0 446.719 394.861">
   <defs>
     <clipPath id="clip-path">
       <path id="Trazado_61" data-name="Trazado 61" d="M7625.32,1907.857H7497.441v-17.472a16.424,16.424,0,0,0-16.453-16.3h-66.31a16.424,16.424,0,0,0-16.453,16.3v17.472H7270.348c-19.809,0-36.016,17-36.016,37.767v215.059c0,20.771,16.207,37.767,36.016,37.767h8.551l-7.548,46.813,60.788-46.813H7625.32c19.808,0,36.015-17,36.015-37.767V1945.624C7661.335,1924.852,7645.128,1907.857,7625.32,1907.857Z" transform="translate(-7234.332 -1874.087)" fill="#e9e9e9" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>

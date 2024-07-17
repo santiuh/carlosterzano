@@ -1,9 +1,9 @@
 <template>
     <div class="flex relative bg-primary w-full justify-center">
        
-            <div class="flex flex-col max-w-[1440px] w-full items-center pb-[200px] pt-[165px] px-32">
-                <p class=" font-bold text-[62px]">MAS DE 20 AÑOS</p>
-            <ContDegrade class="text-secondary text-[38px] px-4 mb-[68px]">IMPULSANDO EL DESAROLLO DE:</ContDegrade>
+            <div class="flex flex-col max-w-[1440px] w-full items-center xl:pb-[200px] pb-[100px] pt-[82px] xl:pt-[165px] xl:px-32 px-4  text-center">
+                <p class=" font-bold xl:text-[62px] text-[30px] ">MAS DE 20 AÑOS</p>
+            <ContDegrade class="text-secondary xl:text-[38px] xl:w-auto px-4 mb-[68px]">IMPULSANDO EL DESAROLLO DE:</ContDegrade>
          
             <div class="justify-between flex flex-row w-full pt-[18px] ">
                 <div class="flex flex-col gap-[27px] items-center">
@@ -13,7 +13,7 @@
 
                     </div>
                     <NuxtImg class="!h-[53px] !w-[53px] " src="/ctPersonas.svg"></NuxtImg>
-                    <ContDegrade class="px-3 text-3xl py-1 items-center font-light">Personas</ContDegrade>
+                    <ContDegrade class="px-3 xl:text-3xl py-1 items-center font-light">Personas</ContDegrade>
                 </div>
                 <div class="flex flex-col items-center gap-[27px] grow">
                     <div class="flex flex-row justify-center w-full h-[45px]">
@@ -21,7 +21,7 @@
                         <div class="border-t border-l w-full"></div>
                     </div>
                     <NuxtImg  class="!h-[53px] !w-[53px]" src="/ctEquipos.svg"></NuxtImg>
-                    <ContDegrade class="px-3 text-3xl py-1 items-center font-light">Equipos</ContDegrade>
+                    <ContDegrade class="px-3 xl:text-3xl py-1 items-center font-light">Equipos</ContDegrade>
                 </div>
                 <div class="flex flex-col gap-[27px] items-center ">
                     <div class="flex flex-row justify-center w-full">
@@ -29,7 +29,7 @@
                         <div class="w-1/2" ></div>
                     </div>
                     <NuxtImg  class="!h-[53px] !w-[53px]" src="/ctOrganizaciones.svg"></NuxtImg>
-                    <ContDegrade class="px-3 text-3xl py-1 items-center font-light">Organizaciones</ContDegrade>
+                    <ContDegrade class="px-3 xl:text-3xl py-1 items-center font-light">Organizaciones</ContDegrade>
                 </div>
 
             </div>

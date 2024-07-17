@@ -1,16 +1,16 @@
 <template>
     <div class="flex relative bg-primary w-full justify-center">
-        <div class="flex flex-col max-w-[1440px] w-full items-center pb-[70px] pt-[45px] px-32">
-            <ContDegrade class="text-[37px] px-[32px] mb-[55px]">TESTIMONIOS</ContDegrade>
-            <div class="flex flex-row justify-between">
-                <PiensoGlobo></PiensoGlobo>
-                <PiensoGlobo2></PiensoGlobo2>
-                <PiensoGlobo3></PiensoGlobo3>
+        <div class="flex flex-col max-w-[1440px] w-full items-center pb-[70px] pt-[45px] xl:px-32 px-4">
+            <ContDegrade class="text-[37px] px-4 xl:px-[32px] mb-[55px]">TESTIMONIOS</ContDegrade>
+            <div class="flex flex-col xl:flex-row justify-between w-full">
+                <PiensoGlobo class="!w-auto !h-auto"></PiensoGlobo>
+                <PiensoGlobo2 class="!w-auto !h-auto"></PiensoGlobo2>
+                <PiensoGlobo3 class="!w-auto !h-auto"></PiensoGlobo3>
             </div>
-            <div class="flex flex-row justify-between">
-                <PiensoGlobo4></PiensoGlobo4>
-                <PiensoGlobo5></PiensoGlobo5>
-                <PiensoGlobo6></PiensoGlobo6>
+            <div class="flex flex-col xl:flex-row justify-between w-full">
+                <PiensoGlobo4 class="!w-auto !h-auto"></PiensoGlobo4>
+                <PiensoGlobo5 class="!w-auto !h-auto"></PiensoGlobo5>
+                <PiensoGlobo6 class="!w-auto !h-auto"></PiensoGlobo6>
             </div>
         </div>
         <div class="absolute flex h-full w-full"

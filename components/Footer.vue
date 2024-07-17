@@ -5,7 +5,7 @@
           
                 <div class="text-[32px] font-extrabold tracking-[0.64px] ">Contacto</div>
                 
-                <div class="flex flex-row justify-between w -full">
+                <div class="flex flex-col xl:flex-row gap-6 xl:gap-0 justify-between w-full">
                   <NuxtLink class="hover:brightness-75 hidden xl:flex hover:cursor-pointer transition-all duration-300" to="/"><NuxtPicture class="!h-1 !w-auto" src="/ctNombre.svg"></NuxtPicture></NuxtLink>                        
 
                   <div class="flex flex-col gap-2">

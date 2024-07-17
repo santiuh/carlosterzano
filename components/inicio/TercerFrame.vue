@@ -1,9 +1,9 @@
 <template>
-    <div class="bg-[#8DA1FA] flex justify-center py-[84px]">
-        <div class="flex flex-col max-w-[1440px] px-32 w-full items-center">
-          <h1 class="text-[33px] border rounded-full tracking-widest px-[18px] py-3 my-4">POTENCIANDO EL CRECIMIENTO</h1>
-          <h2 class="text-[33px] font-bold tracking-widest">PROFESIONAL Y PERSONAL DE </h2>
-          <div class="flex flex-col gap-[100px] w-full py-[120px]">
+    <div class="bg-[#8DA1FA] flex justify-center py-[42px] xl:py-[84px]">
+        <div class="flex flex-col max-w-[1440px] xl:px-32 px-4 w-full items-center">
+          <h1 class="xl:text-[33px] border rounded-full tracking-widest px-[18px] py-3 my-4">POTENCIANDO EL CRECIMIENTO</h1>
+          <h2 class="xl:text-[33px] font-bold tracking-widest">PROFESIONAL Y PERSONAL DE </h2>
+          <div class="flex flex-col gap-[60px] xl:gap-[100px] w-full py-[60px] xl:py-[120px]">
             <div class="flex flex-row justify-between w-full" v-for="dato in data">
                  <div class="flex flex-col text-[33px]" v-for="datito in dato">
                     <NuxtImg src="/ctLogoGen.svg"/>
