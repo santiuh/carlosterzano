@@ -5,19 +5,6 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
     "@nuxt/image",
-    ['nuxt-mail', {
-      message: {
-        to: process.env.EMAIL_TO, 
-      },
-      smtp: {
-        host: process.env.SMTP_HOST, 
-        port: process.env.SMTP_PORT, 
-        auth: {    
-          user: process.env.SMTP_USER, 
-          pass: process.env.SMTP_PASS, 
-        },
-      },
-    }],
     ["@nuxtjs/google-fonts",
       {
         families: {
