@@ -4,14 +4,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary' : '#D3A094',
-        'secondary' : '#E0AC9C',
-        'text' : '#574C4C',
-        'title' : '#c3996b',
-        'footer2' : '#574c4c'
+        'primary' : '#0E4968',
+        'secondary' : '#E9E9E9',
+        'tertiary' : '#4DE2BB',
       },
       fontFamily: {
-        'manro' :   ["Manrope"]
+        'rubik' :   ["Rubik"]
     },
     },
   },

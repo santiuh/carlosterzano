@@ -29,7 +29,7 @@ export default defineNuxtConfig({
             wght: [100, 400, 700],
             ital: [100],
           },
-          "Manrope": {
+          Rubik: {
             wght: [400, 500, 600, 700, 800],
           },
           "Space+Grotesk": {

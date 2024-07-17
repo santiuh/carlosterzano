@@ -1,10 +1,13 @@
 <template>
-  <NuxtPage class="font-manro text-text"></NuxtPage>
+  <NuxtLayout>
+    <NuxtPage></NuxtPage>
+
+  </NuxtLayout>
 </template>
 <script setup>
 useSeoMeta({
-  title: 'La Guillermina',
-  ogTitle: 'La Guillermina Eventos',
+  title: 'Carlos Terzano',
+  ogTitle: 'Carlos Terzano',
   description: 'Somos una inmobiliaria boutique con un concepto jóven. Priorizamos el servicio y la calidad, a la masividad y trabajamos de manera ordenada, transparente y al alcance de cada necesidad.',
   ogDescription: 'Somos una inmobiliaria boutique con un concepto jóven. Priorizamos el servicio y la calidad, a la masividad y trabajamos de manera ordenada, transparente y al alcance de cada necesidad.',
   ogImage: '/logo.svg',

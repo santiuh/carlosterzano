@@ -1,13 +1,10 @@
 <template>
-    <div class="flex flex-col tracking-[0.2px] font-lexend " style="scroll-behavior: smooth;">
-      <HeaderHero id="Header" fondo="/portada1.png" frase="/header_index_frase.svg" filtro="rgba(79, 59, 48, 0.70)" class="bg-bottom"></HeaderHero>
-      <Bienvenido></Bienvenido>
-      <ComoHacemos></ComoHacemos>
-      <Carrucel :fotos="fotos" carouselId="carousel_index"></Carrucel>
-
-      <Formulario id="Contacto"></Formulario>
-      <Footer
-      ></Footer>
+    <div class="flex flex-col tracking-[0.2px] font-lexend text-secondary " style="scroll-behavior: smooth;">
+      <InicioHero></InicioHero>
+      <!-- <Carrucel :fotos="fotos" carouselId="carousel_index"></Carrucel> -->
+      <InicioSegundoFrame></InicioSegundoFrame>
+      <InicioTercerFrame></InicioTercerFrame>
+   
     
     </div>
   </template>

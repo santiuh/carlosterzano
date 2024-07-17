@@ -1,44 +1,34 @@
 <template>
-  <div class="w-full flex flex-col" style="  background: linear-gradient(90deg, #BA8F65 0%, #936D47 100%);">
-    <footer class="flex flex-col xl:h-[453px] pt-[57px] text-white items-center text-center xl:text-start">
-        <div class="flex px-4 xl:px-[192px] pb-[74px] gap-[32px] xl:max-w-[1440px] h-full w-full flex-col xl:flex-row ">
-              <div class="flex flex-col justify-between ">
-                <div class="text-[32px] font-extrabold tracking-[0.64px] ">Contacto</div>
-                <NuxtLink class="hover:brightness-75 hidden xl:flex hover:cursor-pointer transition-all duration-300" to="/"><NuxtPicture src="/logo.svg"></NuxtPicture></NuxtLink>
-              </div>  
+  <div class="w-full flex flex-col bg-primary" >
+    <footer class="flex flex-col pt-[57px] text-white items-center text-center xl:text-start">
+        <div class="flex px-4 xl:px-20 gap-[32px] xl:max-w-[1440px] h-full w-full flex-col">
           
-              <div class=" flex flex-col-reverse xl:flex-row text-xl gap-4 xl:gap-[124px] xl:pt-3 xl:pl-0 ">
-                <div class="flex flex-col gap-4 xl:mr-[57px] ">
-                  <div class="flex flex-col">
-                    <div class=" font-medium xl:mb-[14px] ">Teléfono</div>
-                    <div>11 2524-3083</div>
+                <div class="text-[32px] font-extrabold tracking-[0.64px] ">Contacto</div>
+                
+                <div class="flex flex-row justify-between w -full">
+                  <NuxtLink class="hover:brightness-75 hidden xl:flex hover:cursor-pointer transition-all duration-300" to="/"><NuxtPicture class="!h-1 !w-auto" src="/ctNombre.svg"></NuxtPicture></NuxtLink>                        
+
+                  <div class="flex flex-col gap-2">
+                    <div class=" font-medium  ">Teléfono</div>
+                    <div>+54 9 11-21880434</div>
                   </div>
-                  <div class="flex flex-col gap-1 xl:gap-0">
-                    <div class="font-medium xl:mb-[14px]">Redes Sociales</div>
+                  <div class="flex flex-col gap-2">
+                    <div class="font-medium">Redes Sociales</div>
                     <div class="flex flex-row gap-5 self-center xl:self-start">
-                      <a target="_blank" href="https://www.instagram.com/laguillerminaeventos/">  <NuxtPicture class="hover:brightness-75 hover:cursor-pointer tranisition-all duration-300" src="instagram.svg" width="24px" height="24px"></NuxtPicture></a>
-                      <a target="_blank" href="https://www.facebook.com/laguillerminaeventos/">  <NuxtPicture class="hover:brightness-75 hover:cursor-pointer transition-all duration-300" src="facebook.svg" width="24px" height="24px"></NuxtPicture></a>
+                      <a target="_blank" href="https://www.instagram.com/carlosterzanook/">  <NuxtPicture class="hover:brightness-75 hover:cursor-pointer tranisition-all duration-300" src="ctInstagram.svg" width="24px" height="24px"></NuxtPicture></a>
+                      <a target="_blank" href="https://www.linkedin.com/in/carlosterzano">  <NuxtPicture class="hover:brightness-75 hover:cursor-pointer transition-all duration-300" src="ctLinkedIn.svg" width="24px" height="24px"></NuxtPicture></a>
                   </div>
-                </div>   
-
-
+                  </div>
+                  <div class="flex flex-col gap-2">
+                    <div class=" font-extrabold">E-mail</div>
+                    <div>hablemos@carlosterzano.com</div>
+                    </div>
                 </div>
-                <div class="flex flex-col-reverse xl:flex-col gap-4 xl:mr-[57px] ">
-                  <div class="flex flex-col">
-                    <div class=" font-extrabold   xl:mb-[14px]">Dirección</div>
-                    <div  class="  ">Caxaraville 1803, Ituzaingó</div>
-                  </div>
-                  <div class="flex flex-col">
-                    <div class=" font-extrabold xl:mb-[14px]">E-mail</div>
-                    <div>laguillerminaeventos@gmail.com</div>
-                  </div>
-                </div>
-              </div>             
         </div>
     </footer>
     <div class="bg-footer2">
       <div class="flex xl:justify-center text-white">
-            <div class="flex xl:flex-row flex-col-reverse items-center xl:gap-0 gap-4 xl:items-start text-center xl:text-left xl:justify-between xl:px-4 xl:px-[192px] py-[25px] xl:max-w-[1440px] w-full ">
+            <div class="flex xl:flex-row flex-col-reverse items-center xl:gap-0 gap-4 xl:items-start text-center xl:text-left xl:justify-between xl:px-20 py-[50px] xl:max-w-[1440px] w-full ">
                 <div class="font-space font-bold  tracking-[0.2px] px-4 xl:px-0">Hecho con amor por La Idea Agencia Creativa. 2024.</div>
                 <a target="_blank" href="https://www.laidea.com.ar/"> <NuxtPicture class="hover:brightness-75 hover:cursor-pointer tranisition-all duration-300"  src="laidea_logo.svg" width="87px" height="17px"></NuxtPicture></a>
            </div>
