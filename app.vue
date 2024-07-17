@@ -8,8 +8,8 @@
 useSeoMeta({
   title: 'Carlos Terzano',
   ogTitle: 'Carlos Terzano',
-  description: 'Somos una inmobiliaria boutique con un concepto jóven. Priorizamos el servicio y la calidad, a la masividad y trabajamos de manera ordenada, transparente y al alcance de cada necesidad.',
-  ogDescription: 'Somos una inmobiliaria boutique con un concepto jóven. Priorizamos el servicio y la calidad, a la masividad y trabajamos de manera ordenada, transparente y al alcance de cada necesidad.',
+  description: 'Descrip Carlos Terzano',
+  ogDescription: 'og Descrip Carlos Terzano',
   ogImage: '/logo.svg',
 })
 </script>
