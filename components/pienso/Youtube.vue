@@ -11,18 +11,7 @@
               width="375"
               height="329"
             ></iframe>
-            <div   v-show="playingVideoId !== video.id.videoId"
-            @click="playVideo(video.id.videoId)"
-             class="absolute xl:flex flex-col w-full bg-[url('/ctFondo.png')] h-full hidden pt-5 justify-between">
-                <div class="flex flex-row self-center items-center border rounded-2xl px-2 bg-[#e9e9e950]">
-                    <NuxtImg class="!h-[32px] !w-auto border-r-2 pr-2" src="/ctFecha.svg"></NuxtImg>
-                    <div class="text-white  text-[32px] pl-2 "> {{ formatDate(video.snippet.publishedAt) }} </div>
-                </div>
-                    <div class="text-[27px] font-medium text-white w-full text-center" >{{ video.snippet.title }}</div>
-            
-                <div></div>
-                
-            </div>
+
 
           </div>
         </li>

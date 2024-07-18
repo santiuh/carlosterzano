@@ -1,10 +1,12 @@
 <template>
-    <div class="bg-secondary w-full flex justify-center">
-    <div class="pt-[113px] flex flex-col text-primary max-w-[1440px] w-full p-4 xl:px-20 pb-[165px] self-center">
+    <div class="bg-secondary w-full flex justify-center pt-20">
+    <div class=" flex flex-col text-primary max-w-[1440px] w-full px-4 xl:px-20 pb-[165px] self-center">
         <div class="flex flex-col xl:flex-row gap-[43px] ">
+            <ContDegrade class=" text-[33px] tracking-widest self-center px-4 xl:px-[22px] font-normal xl:hidden flex">SOBRE MÍ</ContDegrade>
+
             <NuxtImg class="xl:!w-1/2 !w-auto !h-auto" src="/ctPerfil.png"></NuxtImg>
-            <div class="flex flex-col text-primary font-light text-[21px] xl:text-nowrap">
-                <ContDegrade class=" text-[33px] tracking-widest px-[22px] font-normal mt-[25px] mb-[35px]">SOBRE MÍ</ContDegrade>
+            <div class="flex flex-col text-primary font-light text-[21px] 2xl:text-nowrap">
+                <ContDegrade class=" text-[33px] tracking-widest px-[22px] font-normal mt-[25px] mb-[35px] hidden xl:flex">SOBRE MÍ</ContDegrade>
                 <h2 class="font-bold mb-[25px]">Carlos Terzano. - C.E.O - Fundador </h2>
                 <p>Experto en Coaching de Equipos | Especialista en Desarrollo Humano</p>
                 <p class="mb-[50px]">Formación de Líderes | Tallerista y Conferencista Internacional</p>
@@ -19,8 +21,9 @@
                 <p class="mb-2">certificador de la herramienta para Latinoamérica y Europa.</p>
             </div>
         </div>
-        <div class="flex flex-row xl:pl-[33px] w-full gap-1 justify-between my-[66px]">
-            <NuxtImg class="w-1/3" src="/ctSobreMiuno.png"></NuxtImg>
+        <Carrucel :fotos="['/ctSobreMiUno.png','/ctSobreMiDos.png','/ctSobreMiTres.png']" carouselId="sobremi" class="flex xl:hidden"></Carrucel>
+        <div class="hidden xl:flex flex-row xl:pl-[33px] w-full gap-1 justify-between my-[66px]">
+            <NuxtImg class="w-1/3" src="/ctSobreMiUno.png"></NuxtImg>
             <NuxtImg class="w-1/3" src="/ctSobreMiDos.png"></NuxtImg>
             <NuxtImg class="w-1/3" src="/ctSobreMiTres.png"></NuxtImg>
         </div>

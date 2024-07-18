@@ -1,5 +1,5 @@
 <template>
-    <section class="flex justify-center" style="background: linear-gradient(90deg, #FBF5F5 0%, #EFE1E1 100%);">
+    <section class="flex justify-center" >
       <div :id="carouselId" class="glide py-10 px-4 xl:px-[192px] max-w-[1440px] overflow-hidden">
         <div class="glide__track" data-glide-el="track">
           <ul class="glide__slides">
