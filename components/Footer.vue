@@ -14,9 +14,9 @@
                   </div>
                   <div class="flex flex-col gap-2">
                     <div class="font-medium">Redes Sociales</div>
-                    <div class="flex flex-row gap-5 self-center xl:self-start">
-                      <a target="_blank" href="https://www.instagram.com/carlosterzanook/">  <NuxtPicture class="hover:brightness-75 hover:cursor-pointer tranisition-all duration-300" src="ctInstagram.svg" width="24px" height="24px"></NuxtPicture></a>
-                      <a target="_blank" href="https://www.linkedin.com/in/carlosterzano">  <NuxtPicture class="hover:brightness-75 hover:cursor-pointer transition-all duration-300" src="ctLinkedIn.svg" width="24px" height="24px"></NuxtPicture></a>
+                    <div class="flex flex-row gap-5 self-center xl:self-start items-center">
+                      <a target="_blank" href="https://www.instagram.com/carlosterzanook/">  <NuxtPicture class="hover:brightness-75 hover:cursor-pointer tranisition-all duration-300" src="ctInstagram.svg" ></NuxtPicture></a>
+                      <a target="_blank" href="https://www.linkedin.com/in/carlosterzano">  <NuxtPicture class="hover:brightness-75 hover:cursor-pointer transition-all duration-300" src="ctLinkedIn.svg"></NuxtPicture></a>
                   </div>
                   </div>
                   <div class="flex flex-col gap-2">
@@ -28,10 +28,10 @@
     </footer>
     <div class="bg-footer2">
       <div class="flex xl:justify-center text-white">
-            <div class="flex xl:flex-row flex-col-reverse items-center xl:gap-0 gap-4 xl:items-start text-center xl:text-left xl:justify-between xl:px-20 py-[50px] xl:max-w-[1440px] w-full ">
-                <div class="font-space font-bold  tracking-[0.2px] px-4 xl:px-0">Hecho con amor por La Idea Agencia Creativa. 2024.</div>
-                <a target="_blank" href="https://www.laidea.com.ar/"> <NuxtPicture class="hover:brightness-75 hover:cursor-pointer tranisition-all duration-300"  src="laidea_logo.svg" width="87px" height="17px"></NuxtPicture></a>
-           </div>
+            <div class="flex flex-row justify-center items-center xl:gap-0 gap-4 xl:items-start text-center xl:text-left xl:justify-between xl:px-20 py-[50px] xl:max-w-[1440px] w-full ">
+              <NuxtImg class="h-12"src="/logoUtopias.png"></NuxtImg>
+              <NuxtImg class="h-12" src="/logoHuman.png"></NuxtImg>
+            </div>
       </div>     
     </div>
   </div>  
