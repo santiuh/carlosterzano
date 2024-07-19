@@ -28,9 +28,9 @@
     </footer>
     <div class="bg-footer2">
       <div class="flex xl:justify-center text-white">
-            <div class="flex flex-row justify-center items-center xl:gap-0 gap-4 xl:items-start text-center xl:text-left xl:justify-between xl:px-20 py-[50px] xl:max-w-[1440px] w-full ">
-              <NuxtImg class="h-12"src="/logoUtopias.png"></NuxtImg>
-              <NuxtImg class="h-12" src="/logoHuman.png"></NuxtImg>
+            <div class="flex flex-row justify-center items-center xl:gap-0 xl:items-start text-center xl:text-left xl:justify-end xl:px-20 py-[50px] xl:max-w-[1440px] w-full ">
+              <a target="_blank" href="https://utopias.com.ar/bienestar-y-negocio">  <NuxtImg class="hover:brightness-75 hover:cursor-pointer tranisition-all duration-300 h-12"  src="/logoUtopias.png" ></NuxtImg></a>
+              <a target="_blank" href="https://humangrowth.site/">  <NuxtImg class="hover:brightness-75 hover:cursor-pointer tranisition-all duration-300 h-12" src="/logoHuman.png" ></NuxtImg></a>
             </div>
       </div>     
     </div>

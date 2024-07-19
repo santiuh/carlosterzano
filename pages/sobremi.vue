@@ -5,20 +5,19 @@
             <ContDegrade class=" text-[33px] tracking-widest self-center px-4 xl:px-[22px] font-normal xl:hidden flex">SOBRE MÍ</ContDegrade>
 
             <NuxtImg class="xl:!w-1/2 !w-auto !h-auto" src="/ctPerfil.png"></NuxtImg>
-            <div class="flex flex-col text-primary font-light text-[21px] 2xl:text-nowrap">
+            <div class="flex flex-col text-primary font-light text-[21px] ">
                 <ContDegrade class=" text-[33px] tracking-widest px-[22px] font-normal mt-[25px] mb-[35px] hidden xl:flex">SOBRE MÍ</ContDegrade>
                 <h2 class="font-bold mb-[25px]">Carlos Terzano. - C.E.O - Fundador </h2>
-                <p>Experto en Coaching de Equipos | Especialista en Desarrollo Humano</p>
-                <p class="mb-[50px]">Formación de Líderes | Tallerista y Conferencista Internacional</p>
-                <p >Siempre me apasionó el desarrollo humano, busco incansablemente </p>
-                <p> la forma de potenciar personas, creyendo firmemente, que estamos</p>
-                <p class="mb-[50px]">destinados a lograr cosas mayores de las que podemos imaginar.</p>
-                <p >Soy psicólogo de profesión, y coach organizacional. Tengo una </p>
-                <p>especialización en Psicología deportiva y una maestría en mo</p>
-                <p class="mb-[50px]">emprendeduriso.</p>
-                <p>Fui director Ejecutivo de Formación Gerencial en la IAE Business School </p>
-                <p >y Director del área de consultoría en PDA Internacional, donde fui</p>
-                <p class="mb-2">certificador de la herramienta para Latinoamérica y Europa.</p>
+                <p>Experto en Coaching de Equipos</p> 
+                <p>Especialista en Desarrollo Humano</p>
+                <p>Formación de Líderes</p>
+                <p>Tallerista y Conferencista Internacional</p>
+                <br>
+                <p>Siempre me apasionó el desarrollo humano, busco incansablemente la forma de potenciar personas, creyendo firmemente, que estamos destinados a lograr cosas mayores de las que podemos imaginar.</p>
+                <br>
+                <p>Soy psicólogo de profesión, y coach organizacional. Tengo una especialización en Psicología deportiva y una maestría emprendedurismo.</p>
+                <br>
+                <p>Fui director Ejecutivo de Formación Gerencial en la IAE Business School y Director del área de consultoría en PDA Internacional, donde fui certificador de la herramienta para Latinoamérica y Europa.</p>
             </div>
         </div>
         <Carrucel :fotos="['/ctSobreMiUno.png','/ctSobreMiDos.png','/ctSobreMiTres.png']" carouselId="sobremi" class="flex xl:hidden"></Carrucel>

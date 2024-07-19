@@ -8,8 +8,7 @@
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
-              width="375"
-              height="329"
+            class="aspect-[9/16]"
             ></iframe>
 
 

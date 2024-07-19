@@ -3,7 +3,7 @@
 class="flex justify-center relative bg-primary "
 >
     <div class="flex flex-col xl:flex-row justify-center max-w-[1440px] xl:px-36 px-4 gap-8 pb-[100px] xl:pb-[162px] pt-[100px] xl:pt-[200px] z-10 items-center w-full">
-        <div class="rounded-3xl overflow-hidden h-[425px] w-full xl:w-2/5 bg-[url(/ctContacto.png)] bg-no-repeat bg-cover">        </div>
+        <div class="rounded-3xl overflow-hidden h-[425px] w-full xl:w-2/5 bg-[url(/ctContacto.jpg)] bg-no-repeat bg-cover">        </div>
 
             <!-- <NuxtImg class="rounded-3xl !w-5/12" src="/ctContacto.png"></NuxtImg> -->
         <div class="bg-primary bg-[url(/ctContactoBg.svg)]  bg-no-repeat bg-right-bottom flex flex-col text-white leading-tight xl:leading-[38px] items-start px-4 xl:px-0 xl:pl-[75px] w-full xl:w-2/3 pt-6 pb-6 xl:pt-[61px] rounded-[36px] gap-[22px] h-fit xl:pb-[20px]">
