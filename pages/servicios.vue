@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-primary flex flex-col justify-center w-full pt-20 xl:pt-0">
+    <div class="bg-primary flex flex-col items-center w-full pt-20 xl:pt-0">
         <div class="flex flex-col max-w-[1440px] xl:px-20 px-4 pb-20 w-full gap-6 xl:gap-0">
             <ContDegrade class="xl:px-8 px-3 py-1 items-center  text-center xl:text-start text-xl xl:text-4xl self-center xl:self-start xl:my-16 xl:ml-6">SERVICIOS PENSADOS PARA VOS</ContDegrade>
             <div class="flex flex-row xl:hidden justify-around w-full bg-[#867e9741] py-3 rounded-3xl">
