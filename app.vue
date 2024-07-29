@@ -6,11 +6,11 @@
 </template>
 <script setup>
 useSeoMeta({
-  title: 'Carlos Terzano',
-  ogTitle: 'Carlos Terzano',
-  description: 'Descrip Carlos Terzano',
-  ogDescription: 'og Descrip Carlos Terzano',
-  ogImage: '/logo.svg',
+  title: 'Carlos Terzano - Psicologo y coach organizacional',
+  ogTitle: 'Carlos Terzano - Psicologo y coach organizacional',
+  description: 'Psicólogo y coach organizacional - Fundador CEO y Fundador de Utopías y de Human Growth. Experto en Coaching de Equipos | Especialista en Desarrollo Humano | Formación de Líderes | Tallerista y Conferencista Internacional',
+  ogDescription: 'Psicólogo y coach organizacional - Fundador CEO y Fundador de Utopías y de Human Growth. Experto en Coaching de Equipos | Especialista en Desarrollo Humano | Formación de Líderes | Tallerista y Conferencista Internacional',
+  ogImage: '/ctContacto.jpg',
 })
 </script>
 <style>
