@@ -1,6 +1,6 @@
 <template>
     <div>
-      <ul class="flex flex-col xl:flex-row gap-[75px] justify-around w-full max-w-[1440px]" v-if="videos.length">
+      <ul class="flex flex-col xl:flex-row gap-[75px] justify-around w-full max-w-[1440px]"  v-if="videos.length">
         <li v-for="video in videos" :key="video.id.videoId">
           <div class="flex rounded-3xl overflow-hidden relative ">
             <iframe

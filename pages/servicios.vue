@@ -4,6 +4,7 @@
       class="flex flex-col max-w-[1440px] xl:px-20 px-4 pb-20 w-full gap-6 xl:gap-0"
     >
       <ContDegrade
+         data-aos="zoom-in-up"
         class="xl:px-8 px-3 py-1 items-center text-center xl:text-start text-xl xl:text-4xl self-center xl:self-start xl:my-16 xl:ml-6"
         >SERVICIOS PENSADOS PARA VOS</ContDegrade
       >
@@ -140,7 +141,7 @@
             equipos en Latinoamérica un
             <strong> proceso transformacional </strong> transformacional. A
             partir del mismo, la <strong> humanidad</strong>, la construcción de
-            <storng>confianza</storng>, la
+            <strong>confianza</strong>, la
             <strong>comunicación sincera</strong> y transparente, la
             colaboración y la gestión de los focos claves en la gestión de un
             equipo, pasan a ser los hábitos centrales en el funcionamiento de
@@ -169,7 +170,7 @@
           <p>– Brian Tracy</p>
           <br />
           <p>
-            ¿Te gustaría un <storng>cambio significativo</storng> en tu vida
+            ¿Te gustaría un <strong>cambio significativo</strong> en tu vida
             laboral, en tu liderazgo, en tu manera de vincularte? ¿Deseas
             alcanzar tus <strong> metas profesionales y personales</strong> de
             una manera auténtica?

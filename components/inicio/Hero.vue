@@ -3,8 +3,8 @@
     <div
       class="flex max-w-[1440px] w-full xl:px-34 px-4 justify-center relative xl:px-32"
     >
-      <div
-        class="flex xl:rounded-[144px] xl:h-[512px] overflow-hidden bg-[url('/ctHeroBg.png')] bg-repeat-round w-full xl:pr-[90px] gap-[44px] xl:pl-[32px] justify-center"
+      <div data-aos="zoom-in-up"
+        class="flex xl:rounded-[144px] rounded-3xl xl:h-[512px] overflow-hidden bg-[url('/ctHeroBg.png')] bg-cover bg-center  xl:bg-repeat-round w-full xl:pr-[90px] gap-[44px] xl:pl-[32px] justify-center"
       >
         <!-- <div class="bg-[url('/ctRetrato.svg')]  bg-no-repeat bg-bottom"></div> -->
         <NuxtImg

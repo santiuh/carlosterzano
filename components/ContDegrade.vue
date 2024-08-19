@@ -1,11 +1,8 @@
 <template>
-    <div class="bg-primary flex relative justify-center rounded-[22px] w-fit text-secondary">
-        <slot class="z-10"></slot>
-    <div class="absolute w-full h-full z-0" style="background: transparent linear-gradient(90deg, #8DA1FA 0%, #8DA1FA 25%, #4DE2BB 80%, #4DE2BB 98%, #4DE2BB 100%) 0% 0% no-repeat padding-box;
-     mix-blend-mode: soft-light;
-     opacity: 1;    
+    <div class="bg-primary flex justify-center rounded-[22px] w-fit text-secondary " style="background: rgb(19,110,198);
+background: linear-gradient(90deg, rgba(19,110,198,1) 0%, rgba(11,134,181,1) 50%, rgba(7,158,160,1) 100%);
     border-radius: 22px;">
-    </div>
+        <slot class="z-10"></slot>
     </div>
    
 

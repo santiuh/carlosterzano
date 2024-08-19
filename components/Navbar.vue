@@ -7,38 +7,38 @@
       class="xl:max-w-[1440px] px-20 hidden xl:flex gap-4 text-secondary justify-between flex-col-reverse xl:flex-row fixed xl:static w-full transition-all duration-500 z-50"
     >
       <NuxtLink
-        class="hover:brightness-75 hover:cursor-pointer transition-all duration-300"
+        class="hover:brightness-90 hover:cursor-pointer transition-all duration-300  hover:scale-105"
         to="/"
         ><NuxtPicture src="/ctNombre.svg"></NuxtPicture
       ></NuxtLink>
       <div class="flex font-medium justify-between w-1/2">
         <NuxtLink
           active-class="!text-tertiary"
-          class="hover:brightness-90 hover:cursor-pointer transition-all duration-300"
+          class="hover:brightness-90 hover:cursor-pointer  hover:scale-110 transition-all duration-300"
           to="/"
           >INICIO</NuxtLink
         >
         <NuxtLink
           active-class="!text-tertiary"
-          class="hover:brightness-90 hover:cursor-pointer transition-all duration-300"
+          class="hover:brightness-90 hover:cursor-pointer  hover:scale-110 transition-all duration-300"
           to="/sobremi"
           >SOBRE MI</NuxtLink
         >
         <NuxtLink
           active-class="!text-tertiary"
-          class="hover:brightness-90 hover:cursor-pointer transition-all duration-300"
+          class="hover:brightness-90 hover:cursor-pointer  hover:scale-110 transition-all duration-300"
           to="/servicios"
           >SERVICIOS</NuxtLink
         >
         <NuxtLink
           active-class="!text-tertiary"
-          class="hover:brightness-90 hover:cursor-pointer transition-all duration-300"
+          class="hover:brightness-90 hover:cursor-pointer  hover:scale-110 transition-all duration-300"
           to="/pienso"
           >PIENSO</NuxtLink
         >
         <NuxtLink
           active-class="!text-tertiary"
-          class="hover:brightness-90 hover:cursor-pointer transition-all duration-300"
+          class="hover:brightness-90 hover:cursor-pointer hover:scale-110 transition-all duration-300"
           to="/contacto"
           >CONTACTO</NuxtLink
         >

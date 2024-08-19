@@ -1,7 +1,7 @@
 <template>
-  <div class="bg-secondary w-full flex justify-center pt-20">
+  <div class="bg-secondary w-full flex  flex-col justify-center pt-20">
     <div
-      class="flex flex-col text-primary max-w-[1440px] w-full px-4 xl:px-20 pb-[165px] self-center"
+      class="flex flex-col text-primary max-w-[1440px] w-full px-4 xl:px-20 self-center"
     >
       <div class="flex flex-col xl:flex-row gap-[43px] w-full">
         <ContDegrade
@@ -15,6 +15,8 @@
         ></NuxtImg>
         <div class="flex flex-col text-primary font-light text-[21px]">
           <ContDegrade
+          data-aos="zoom-in-up"
+
             class="text-[33px] tracking-widest px-[22px] font-normal mt-[25px] mb-[35px] hidden xl:flex"
             >SOBRE MÍ</ContDegrade
           >
@@ -46,6 +48,21 @@
           </p>
         </div>
       </div>
+
+    </div>
+    <div class="w-full h-60 my-16 bg-[url('/ctPerfil.png')] bg-fixed bg-cover bg-center drop-shadow-2xl"></div>
+    <div       class="flex flex-col text-primary max-w-[1440px] w-full px-4 xl:px-20 pb-[165px] self-center">
+      <div class="flex flex-col xl:pl-[33px] text-[21px] gap-6">
+        <p class="font-bold">
+          Soy Socio Fundador en Utopías y en Human Growth.
+        </p>
+        <p class="font-light">
+          Actualmente, acompaño a personas y equipos de Organizaciones
+          Multinacionales, ONGs y emprendedores de diferentes países de
+          Latinoamérica y Europa en espacios individuales, conferencias y
+          talleres.
+        </p>
+      </div>
       <Carrucel
         :fotos="[
           '/ctSobreMiUno.png',
@@ -62,18 +79,10 @@
         <NuxtImg class="w-1/3" src="/ctSobreMiDos.png"></NuxtImg>
         <NuxtImg class="w-1/3" src="/ctSobreMiTres.png"></NuxtImg>
       </div>
-      <div class="flex flex-col xl:pl-[33px] text-[21px] gap-[50px]">
-        <p class="font-bold">
-          Soy Socio Fundador en Utopías y en Human Growth.
-        </p>
-        <p class="font-light">
-          Actualmente, acompaño a personas y equipos de Organizaciones
-          Multinacionales, ONGs y emprendedores de diferentes países de
-          Latinoamérica y Europa en espacios individuales, conferencias y
-          talleres.
-        </p>
-      </div>
     </div>
+
+
   </div>
+  
 </template>
 <script setup></script>

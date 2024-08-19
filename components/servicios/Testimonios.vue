@@ -3,13 +3,13 @@
         <div class="flex flex-col max-w-[1440px] w-full items-center xl:pb-[70px] pt-[45px] xl:px-32 px-2">
             
             <ContDegrade class="text-[37px] px-4 xl:px-[32px] xl:mb-[55px]">TESTIMONIOS</ContDegrade>
-            <PiensoCarrouselGlobos></PiensoCarrouselGlobos>
-            <div class="hidden xl:flex flex-col xl:flex-row justify-between w-full">
+            <PiensoCarrouselGlobos ></PiensoCarrouselGlobos>
+            <div data-aos="zoom-in-up" class="hidden xl:flex flex-col xl:flex-row justify-between w-full">
                 <PiensoGlobo class="!w-full "></PiensoGlobo>
                 <PiensoGlobo2 class="!w-full "></PiensoGlobo2>
                 <PiensoGlobo3 class="!w-full "></PiensoGlobo3>
             </div>
-            <div class="hidden xl:flex flex-col xl:flex-row justify-between w-full">
+            <div data-aos="zoom-in-up" data-aos-delay="100" class="hidden xl:flex flex-col xl:flex-row justify-between w-full">
                 <PiensoGlobo4 class="!w-full"></PiensoGlobo4>
                 <PiensoGlobo5 class="!w-full"></PiensoGlobo5>
                 <PiensoGlobo6 class="!w-full"></PiensoGlobo6>
