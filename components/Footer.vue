@@ -21,7 +21,7 @@
                   </div>
                   <div class="flex flex-col gap-2">
                     <div class=" font-extrabold">E-mail</div>
-                    <div>hablemos@carlosterzano.com</div>
+                    <div>carlos@carlosterzano.com </div>
                     </div>
                 </div>
         </div>

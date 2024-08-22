@@ -10,7 +10,7 @@ class="flex  flex-col justify-center relative  color-change-2x "
             <p class="text-[30px] xl:text-[37px] font-medium">¡Trabajemos juntos!</p>
             <NuxtImg class="!h-auto !w-[54px]" src="/ctGuionC.svg"></NuxtImg>
             <p class="text-[24px] xl:text-[31px] font-medium">+54 9 11-21880434</p>
-            <p class="text-[20px] xl:text-[31px] font-medium">hablemos@carlosterzano.com</p>
+            <p class="text-[20px] xl:text-[31px] font-medium">carlos@carlosterzano.com</p>
         </div> 
     </div>  
     <!-- <div class="absolute flex h-full w-full "
